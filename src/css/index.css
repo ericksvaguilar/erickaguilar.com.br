@@ -1,0 +1,103 @@
+/* 1 - Basic Styles */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: var(--background);
+  color: var(--on-background-high-em);
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+/* 1.1 - Navbar */
+.nav {
+  box-shadow: var(--box-shadow);
+  background-color: var(--depth-01);
+  
+  display: flex;
+}
+
+.nav-logo:link,
+.nav-logo:visited {
+  text-decoration: none;
+
+  color: var(--on-primary);
+  background-color: var(--primary);
+
+  display: inline-block;
+  padding: .5rem;
+  margin: .5rem 0;
+  border-radius: 10px;
+  border: 5px solid var(--background);
+
+  font-size: 1.1rem;
+
+  transition: ease-in-out .5s;
+  box-shadow: var(--box-shadow);
+}
+
+.nav-logo:link:hover,
+.nav-logo:visited:hover {
+  box-shadow: none;
+}
+
+/* 2 - Main Content */
+.main-content {
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
+
+.section {
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+.section p {
+  margin-bottom: 1rem;
+}
+
+.section p:last-of-type {
+  margin: 0;
+}
+
+/* 2.1 - Hi Section */
+.hi {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) {
+  html {
+    font-size: 17px;
+  }
+
+  .container {
+    width: 85%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 993px) {
+  html {
+    font-size: 19px;
+  }
+
+  .container {
+    width: 70%;
+  }
+}

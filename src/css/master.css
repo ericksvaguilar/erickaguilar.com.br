@@ -1,0 +1,35 @@
+/* 1 - Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2 - Variables */
+:root {
+  /* Colors */
+  --primary: rgb(187 134 252);
+  --primary-variant: rgb(55 0 179);
+
+  /* Surfaces (background and components) */
+  --background: rgb(12 12 12);
+  --primary-background: rgb(187 134 252 / 8%);
+
+  /* Content (typography and iconography) */
+  --on-primary: rgb(0 0 0);
+  --on-background-high-em: rgb(255 255 255 / 87%);
+  --on-background-medium-em: rgb(255 255 255 / 87%);
+  --on-background-disabled: rgb(255 255 255 / 87%);
+
+  /* Depths of the website */
+  --depth-01: rgb(255 255 255 / 5%);
+  --depth-02: rgb(255 255 255 / 7%);
+  --depth-03: rgb(255 255 255 / 8%);
+  --depth-04: rgb(255 255 255 / 9%);
+
+  /* Shadow of the depths  */
+  --box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+/* 3 - Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
