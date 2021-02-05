@@ -1,0 +1,37 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--error);
+  padding: 1rem;
+  border-radius: 4px;
+  color: var(--on-primary);
+  box-shadow: var(--box-shadow);
+}
+
+.card a {
+  align-self: flex-start;
+  margin-top: 1rem;
+  display: inline-block;
+  color: var(--on-primary);
+
+  padding: 0.5rem;
+  border-radius: 4px;
+
+  position: relative;
+  right: 0.2rem;
+
+  transition: ease-in-out 0.5s;
+}
+
+@media (hover: hover) {
+  .card a:hover {
+    box-shadow: var(--box-shadow);
+    background-color: var(--depth-04);
+  }
+}
