@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Erick Aguilar</title>
+    <link rel="stylesheet" href="/src/css/typography.css" />
     <link rel="stylesheet" href="/src/css/master.css" />
     <link rel="stylesheet" href="/src/css/index.css" />
   </head>
@@ -16,17 +17,40 @@
 
     <main class="main-content">
       <div class="container">
-        <section class="hi section">
+        <article id="hi" class="section">
           <h2>Olá!</h2>
           <p>
             Meu nome é Erick Aguilar. Sou Desenvolvedor Front-end e entusiasta
-            em React.js e café.
+            em React.js.
           </p>
           <p>
             Atualmente busco meu primeiro emprego na área em um ambiente que
             seja acolhedor e, ao mesmo tempo, desafiador para um Júnior.
           </p>
-        </section>
+        </article>
+
+        <article id="projects" class="section">
+          <h2>Projetos</h2>
+
+          <div class="project-wrapper">
+            <section class="project-card">
+              <header class="project-card__header">
+                <h3>erickaguilar.com.br</h3>
+                <time datetime="2021">2021</time>
+              </header>
+
+              <div class="project-card__text">
+                <p>Meu site pessoal.</p>
+              </div>
+
+              <div class="project-card__actions">
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </section>
+          </div>
+        </article>
       </div>
     </main>
 
