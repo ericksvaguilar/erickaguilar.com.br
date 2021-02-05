@@ -10,6 +10,7 @@
   /* Colors */
   --primary: rgb(187 134 252);
   --primary-variant: rgb(55 0 179);
+  --error: #cf6679;
 
   /* Surfaces (background and components) */
   --background: rgb(12 12 12);
@@ -27,8 +28,25 @@
   --depth-02: rgb(255 255 255 / 7%);
   --depth-03: rgb(255 255 255 / 8%);
   --depth-04: rgb(255 255 255 / 9%);
-
+  --depth-24: rgb(255 255 255 / 16%);
   /* Shadow of the depths  */
   --box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
     0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+/* 3 - Basic Styles */
+body {
+  background-color: var(--background);
+  color: var(--on-background-high-em);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
