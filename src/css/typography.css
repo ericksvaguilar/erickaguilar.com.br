@@ -1,5 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
-/* TODO:
-  Style all the typography according with material design.
-*/
+:root {
+  --font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.headline-1 {
+  font-family: var(--font-family);
+  font-size: 6rem;
+  letter-spacing: -0.094rem;
+  font-weight: 300;
+}
+
+.headline-2 {
+  font-family: var(--font-family);
+  font-size: 3.75rem;
+  letter-spacing: -0.031rem;
+  font-weight: 300;
+}
+
+.headline-3 {
+  font-family: var(--font-family);
+  font-size: 3rem;
+  letter-spacing: 0rem;
+  font-weight: 400;
+}
+
+.headline-4 {
+  font-family: var(--font-family);
+  font-size: 2.125rem;
+  letter-spacing: 0.016px;
+  font-weight: 400;
+}
+
+.headline-5 {
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  letter-spacing: 0rem;
+  font-weight: 400;
+}
+
+.headline-6 {
+  font-family: var(--font-family);
+  font-size: 1.25rem;
+  letter-spacing: 0.009rem;
+  font-weight: 500;
+}
+
+.subtitle-1 {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  letter-spacing: 0.009px;
+  font-weight: 400;
+}
+
+.subtitle-2 {
+  font-family: var(--font-family);
+  font-size: 0.875rem;
+  letter-spacing: 0.006rem;
+  font-weight: 500;
+}
+
+.body-1 {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  letter-spacing: 0.031rem;
+  font-weight: 400;
+}
+
+.body-2 {
+  font-family: var(--font-family);
+  font-size: 0.875rem;
+  letter-spacing: 0.016rem;
+  font-weight: 400;
+}
+
+.button {
+  font-family: var(--font-family);
+  font-size: 0.875rem;
+  letter-spacing: 0.078rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.caption {
+  font-family: var(--font-family);
+  font-size: 0.75rem;
+  letter-spacing: 0.025rem;
+  font-weight: 400;
+}
+
+.overline {
+  font-family: var(--font-family);
+  font-size: 0.625rem;
+  letter-spacing: 0.094rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
