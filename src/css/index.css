@@ -14,6 +14,19 @@ img {
   width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+a {
+  font-weight: 500;
+  letter-spacing: 1.25px;
+}
 .container {
   width: 90%;
   margin: 0 auto;
@@ -24,7 +37,7 @@ img {
 .nav {
   box-shadow: var(--box-shadow);
   background-color: var(--depth-01);
-  
+
   display: flex;
 }
 
@@ -36,20 +49,14 @@ img {
   background-color: var(--primary);
 
   display: inline-block;
-  padding: .5rem;
-  margin: .5rem 0;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
   border-radius: 10px;
   border: 5px solid var(--background);
 
   font-size: 1.1rem;
 
-  transition: ease-in-out .5s;
-  box-shadow: var(--box-shadow);
-}
-
-.nav-logo:link:hover,
-.nav-logo:visited:hover {
-  box-shadow: none;
+  transition: ease-in-out 0.5s;
 }
 
 /* 2 - Main Content */
@@ -64,20 +71,72 @@ img {
 }
 
 .section h2 {
+  font-size: 2rem;
   margin-bottom: 1rem;
+  letter-spacing: 0.25px;
 }
 
 .section p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 .section p:last-of-type {
   margin: 0;
 }
 
-/* 2.1 - Hi Section */
-.hi {
+/* 2.1 - Projects Section */
+.project-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+  gap: 1rem;
+}
 
+.project-card {
+  padding: 1rem;
+  border-radius: 2px;
+
+  background-color: var(--depth-01);
+
+  transition: ease-in-out 0.5s;
+}
+
+.project-card__header {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.project-card__header h3 {
+  font-size: 1.12rem;
+  color: var(--on-background-high-em);
+}
+
+.project-card__header time {
+  font-weight: 400;
+  font-size: 0.78rem;
+  color: var(--primary);
+}
+
+.project-card__text {
+  font-size: 0.78rem;
+  color: var(--on-background-medium-em);
+}
+
+.project-card__actions a {
+  display: inline-block;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--on-primary);
+  background-color: var(--primary);
+
+  transition: ease-in-out 0.5s;
 }
 
 /* Tablet Styles */
@@ -94,10 +153,22 @@ img {
 /* Desktop Styles */
 @media only screen and (min-width: 993px) {
   html {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .container {
     width: 70%;
+  }
+}
+
+/* Only aply hover to supported devices (CSS4 feature) */
+@media (hover: hover) {
+  .nav-logo:link:hover,
+  .nav-logo:visited:hover {
+    box-shadow: var(--box-shadow);
+  }
+
+  .project-card:hover {
+    background-color: var(--depth-03);
   }
 }
