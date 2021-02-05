@@ -4,50 +4,91 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Erick Aguilar</title>
-    <link rel="stylesheet" href="/src/css/typography.css" />
     <link rel="stylesheet" href="/src/css/master.css" />
     <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/typography.css" />
   </head>
   <body>
     <nav class="nav">
       <div class="container">
-        <a class="nav-logo" href="/">&lt;erickaguilar /&gt;</a>
+        <h1 class="headline-6">
+          <a class="nav-logo" href="/">&lt;erickaguilar /&gt;</a>
+        </h1>
       </div>
     </nav>
 
     <main class="main-content">
       <div class="container">
         <article id="hi" class="section">
-          <h2>Olá!</h2>
-          <p>
-            Meu nome é Erick Aguilar. Sou Desenvolvedor Front-end e entusiasta
-            em React.js.
-          </p>
-          <p>
-            Atualmente busco meu primeiro emprego na área em um ambiente que
-            seja acolhedor e, ao mesmo tempo, desafiador para um Júnior.
-          </p>
+          <h2 class="headline-5">Olá!</h2>
+          <div class="body-1">
+            <p>
+              Meu nome é Erick Aguilar. Sou Desenvolvedor Front-end e entusiasta
+              em React.js.
+            </p>
+            <p>
+              Atualmente busco meu primeiro emprego na área em um ambiente que
+              seja acolhedor e, ao mesmo tempo, desafiador para um Júnior.
+            </p>
+          </div>
         </article>
 
         <article id="projects" class="section">
-          <h2>Projetos</h2>
+          <h2 class="headline-5">Projetos</h2>
 
           <div class="project-wrapper">
             <section class="project-card">
-              <header class="project-card__header">
-                <h3>erickaguilar.com.br</h3>
-                <time datetime="2021">2021</time>
+              <header>
+                <h3 class="headline-6">erickaguilar.com.br</h3>
+                <time class="body-1" datetime="2021">2021</time>
               </header>
 
-              <div class="project-card__text">
+              <div class="body-2">
                 <p>Meu site pessoal.</p>
               </div>
+              <a
+                class="button"
+                href="https://github.com/ericksvaguilar/erickaguilar.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+            </section>
 
-              <div class="project-card__actions">
-                <a href="http://" target="_blank" rel="noopener noreferrer"
-                  >GitHub</a
-                >
+            <section class="project-card">
+              <header>
+                <h3 class="headline-6">Weather App</h3>
+                <time class="body-1" datetime="2021">2021</time>
+              </header>
+
+              <div class="body-2">
+                <p>Site de onsulta de clima utilizando OpenWeather API.</p>
               </div>
+              <a
+                class="button"
+                href="https://github.com/ericksvaguilar/weather-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+            </section>
+
+            <section class="project-card">
+              <header>
+                <h3 class="headline-6">Calculator</h3>
+                <time class="body-1" datetime="2021">2021</time>
+              </header>
+
+              <div class="body-2">
+                <p>Calculadora feita com JavaScript puro - ES6.</p>
+              </div>
+              <a
+                class="button"
+                href="https://github.com/ericksvaguilar/calculator"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
             </section>
           </div>
         </article>
