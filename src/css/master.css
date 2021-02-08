@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+textarea {
+  resize: none;
+}
+
 /* 2 - Variables */
 :root {
   /* Colors */
@@ -49,4 +53,23 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.contained-button {
+  color: var(--on-primary);
+  background-color: var(--primary);
+
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem;
+  width: fit-content;
+  transition: ease-in-out 0.5s;
+}
+
+@media (hover: hover) {
+  .contained-button:hover {
+    box-shadow: (var(--box-shadow));
+  }
 }
