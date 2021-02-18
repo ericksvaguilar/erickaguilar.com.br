@@ -6,13 +6,18 @@ This is my personal website made with ❤️
 ## Live Preview
 https://erickaguilar.com.br/
 
-## Requirements
-1. VSCode
-2. LiveServer Extension
+## Run the project
 
-## Install
-1. Clone or download the repository
-2. Open repository on VSCode
+### Requirements
+* VSCode
+* Live Server (VSCode Extension)
 
-## Usage
-Open `index.html` with LiveServer
+### Install
+1. Download or clone repository
+
+### Usage
+1. Open `index.html` with Live Server in VSCode
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
