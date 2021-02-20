@@ -39,6 +39,21 @@ textarea {
 }
 
 /* 3 - Basic Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+time::selection {
+  user-select: none;
+}
+
+p::selection {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
 body {
   background-color: var(--background);
   color: var(--on-background-high-em);
