@@ -6,6 +6,10 @@
 
 <p align="center">This is my personal website made with ❤️</p>
 
+<p align="center">
+ <a href="#live-preview">Live Preview</a> •
+</p>
+
 ## Live Preview
 https://erickaguilar.com.br/
 
