@@ -9,7 +9,7 @@
 <p align="center">
  <a href="#live-preview">Live Preview</a> •
   <a href="#run-the-project">Run the project</a> •
-  <a href="#license">License</a> •
+  <a href="#license">License</a>
 </p>
 
 ## Live Preview
