@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-  <img width='100' alt="Erick Aguilar" title="#erickaguilar" src="./src/img/logo-square.png" />
+  <img width='250' alt="Erick Aguilar" title="#erickaguilar" src="./src/img/logo-square.png" />
 </h1>
 
 <h1 align="center">
