@@ -12,6 +12,10 @@
   <a href="#license">License</a>
 </p>
 
+<h4 align="center"> 
+	Status: In progress...
+</h4>
+
 ## Live Preview
 https://erickaguilar.com.br/
 
